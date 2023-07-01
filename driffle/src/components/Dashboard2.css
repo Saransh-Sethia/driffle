@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-1 {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  border: 2px dashed #535c55;
+  border-radius: 50%;
+}
+
+.icon2 {
+  padding-top: 350px;
+  position: absolute;
+  bottom: 46%;
+  right: 50%;
+  /* right: 50%; */
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-bx1 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 0.5s;
+  z-index: 150;
+  transform: rotate(calc(360deg / 3 * var(--i)));
+  transform-origin: 270px;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

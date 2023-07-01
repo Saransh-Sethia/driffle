@@ -1,0 +1,32 @@
+.heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 50px;
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
+.sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4d5c5a;
+  margin-left: 20px;
+}
+
+span {
+  color: #18d6aa;
+}
+
+button {
+  background-color: #303634;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 100px;
+  outline: solid;
+  margin-left: 40px;
+  margin-bottom: 5px;
+}

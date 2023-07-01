@@ -1,0 +1,32 @@
+.logo {
+  color: whitesmoke;
+}
+
+.navbar {
+  padding: 7px 10px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.primary-nav {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #f7fafc;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icon {
+  color: #f7fafc;
+  font-size: 25px;
+  cursor: pointer;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 200px;
+  height: 40px;
+}
